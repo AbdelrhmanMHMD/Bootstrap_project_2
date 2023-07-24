@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap 5.3 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>FAQ</title>
+</head>
+
+<body>
+    <!-- START Navbar -->
+    <nav class="navbar navbar-expand-lg p-0 sticky-top">
+        <div class="container align-items-center">
+            <a class="navbar-brand text-white-50 fs-2" href="#">Abdelrhman <span class="main-color">Inc.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="toggle-icon fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Programming</a></li>
+                            <li><a class="dropdown-item" href="#">Web Design</a></li>
+                            <li><a class="dropdown-item" href="#">Desktop</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Web hosting</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END Navbar -->
+    <!-- START Faq page -->
+    <div class="faq-page pt-5 pb-4">
+        <div class="container">
+            <div class="heading text-center">
+                <h1 class="mt-5 mb-4">Frequently Asked Questions</h1>
+                <hr class="mx-auto text-black-50" style="width: 70%;">
+                <p class="lead mb-5">
+                    Here You Will Find All Questions You Are Searching For And The Full Knowledgebase
+                </p>
+            </div>
+            <div id="accordion">
+                <div class="card mb-1">
+                    <div class="card-header d-flex justify-content-between align-items-center py-2 px-1">
+                        <a class="btn" data-bs-toggle="collapse" href="#one">
+                            #1 How To Use Bootstrap Version 5.3.0?
+                        </a>
+                        <a class="btn d-flex" data-bs-toggle="collapse" href="#one">
+                            <i class="fa-sharp fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+                    <div id="one" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe
+                            The Answer Of The First
+                            Question This Is Test Message Describe The Answer Of The First Question This Is Test Message
+                            Describe The Answer Of The
+                            First Question This Is Test Message Describe The Answer Of The First Question
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="card-header d-flex justify-content-between align-items-center py-2 px-1">
+                        <a class="btn collapsed" data-bs-toggle="collapse" href="#two">
+                            #2 How To Use Media Queries?
+                        </a>
+                        <a class="btn collapsed d-flex" data-bs-toggle="collapse" href="#two">
+                            <i class="fa-sharp fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+                    <div id="two" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe
+                            The Answer Of The First
+                            Question This Is Test Message Describe The Answer Of The First Question This Is Test Message
+                            Describe The Answer Of The
+                            First Question This Is Test Message Describe The Answer Of The First Question
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="card-header d-flex justify-content-between align-items-center py-2 px-1">
+                        <a class="btn collapsed" data-bs-toggle="collapse" href="#three">
+                            #3 How To Create Your Own Slider?
+                        </a>
+                        <a class="btn collapsed d-flex" data-bs-toggle="collapse" href="#three">
+                            <i class="fa-sharp fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+                    <div id="three" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe
+                            The Answer Of The First
+                            Question This Is Test Message Describe The Answer Of The First Question This Is Test Message
+                            Describe The Answer Of The
+                            First Question This Is Test Message Describe The Answer Of The First Question
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-1">
+                    <div class="card-header d-flex justify-content-between align-items-center py-2 px-1">
+                        <a class="btn collapsed" data-bs-toggle="collapse" href="#four">
+                            #4 How To Create Your Own Accordion?
+                        </a>
+                        <a class="btn collapsed d-flex" data-bs-toggle="collapse" href="#four">
+                            <i class="fa-sharp fa-solid fa-angle-down"></i>
+                        </a>
+                    </div>
+                    <div id="four" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            This Is Test Message Describe The Answer Of The First Question This Is Test Message Describe
+                            The Answer Of The First
+                            Question This Is Test Message Describe The Answer Of The First Question This Is Test Message
+                            Describe The Answer Of The
+                            First Question This Is Test Message Describe The Answer Of The First Question
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Faq page -->
+    <!-- START Footer -->
+    <div class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 mb-3 mb-xl-0">
+                    <h4 class="main-color fw-normal mb-4">Sitemap</h4>
+                    <ul class="row">
+                        <li class="col-4 mb-2 fs-6">Home</li>
+                        <li class="col-4 mb-2 fs-6">About</li>
+                        <li class="col-4 mb-2 fs-6">Company</li>
+                        <li class="col-4 mb-2 fs-6">Code</li>
+                        <li class="col-4 mb-2 fs-6">Design</li>
+                        <li class="col-4 mb-2 fs-6">Host</li>
+                        <li class="col-4 mb-2 fs-6">Solutions</li>
+                        <li class="col-4 mb-2 fs-6">Sitemap</li>
+                        <li class="col-4 mb-2 fs-6">Contact</li>
+                    </ul>
+                    <ul class="d-flex social">
+                        <li class="me-2 opacity-75"><img class="img-fluid" src="images/social-bookmarks/facebook.png"
+                                alt=""></li>
+                        <li class="me-2 opacity-75"><img class="img-fluid" src="images/social-bookmarks/gplus.png"
+                                alt=""></li>
+                        <li class="me-2 opacity-75"><img class="img-fluid" src="images/social-bookmarks/twitter.png"
+                                alt=""></li>
+                        <li class="me-2 opacity-75"><img class="img-fluid" src="images/social-bookmarks/pinterest.png"
+                                alt=""></li>
+                        <li class="me-2 opacity-75"><img class="img-fluid" src="images/social-bookmarks/rss.png" alt="">
+                        </li>
+                        <li class="me-2 opacity-75"><img class="img-fluid" src="images/social-bookmarks/email.png"
+                                alt=""></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-6 mb-3 mb-xl-0">
+                    <h4 class="main-color fw-normal mb-4">Latest Articles</h4>
+                    <div class="article mb-3 d-flex align-items-center">
+                        <img class="img-fluid me-2" src="images/articles/01.jpg" alt="">
+                        <div class="text">
+                            <h5 class="mb-1 fw-normal">Programming</h5>
+                            <p class="mb-0">This Is Some Text About Programming Describe The Media Of Bootstrap 5.3.0
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article mb-3 d-flex align-items-center">
+                        <img class="img-fluid me-2" src="images/articles/02.jpg" alt="">
+                        <div class="text">
+                            <h5 class="mb-1 fw-normal">Coding</h5>
+                            <p class="mb-0">This Is Some Text About Programming Describe The Media Of Bootstrap 5.3.0
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article mb-3 d-flex align-items-center">
+                        <img class="img-fluid me-2" src="images/articles/03.jpg" alt="">
+                        <div class="text">
+                            <h5 class="mb-1 fw-normal">Web Design</h5>
+                            <p class="mb-0">This Is Some Text About Programming Describe The Media Of Bootstrap 5.3.0
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 mb-3 mb-lg-0">
+                    <h4 class="main-color fw-normal mb-4">Our Awesome Work</h4>
+                    <img class="img-thumbnail" src="images/work/01.jpg" width="150" height="100" alt="">
+                    <img class="img-thumbnail" src="images/work/02.jpg" width="150" height="100" alt="">
+                    <img class="img-thumbnail" src="images/work/03.jpg" width="150" height="100" alt="">
+                    <img class="img-thumbnail" src="images/work/04.jpg" width="150" height="100" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Footer -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
